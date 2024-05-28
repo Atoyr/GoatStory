@@ -5,6 +5,14 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import { unstable_useEnhancedEffect as useEnhancedEffect } from '@mui/material';
+import {
+  CssBaseline,
+  AppBar,
+  Toolbar,
+  Container,
+  Typography,
+} from '@mui/material';
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (

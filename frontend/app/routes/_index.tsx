@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import { Button } from '@mui/material';
 
 export const meta: MetaFunction = () => {
   return [
@@ -34,6 +35,7 @@ export default function Index() {
           <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
             Remix Docs
           </a>
+<Button variant="contained">ボタン</Button>
         </li>
       </ul>
     </div>
