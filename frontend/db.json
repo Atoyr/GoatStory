@@ -1,0 +1,10 @@
+{
+  "users": [
+    { "id": 1, "name": "John Doe" },
+    { "id": 2, "name": "Jane Smith" }
+  ], 
+  "workItems": [
+    { "id": 1, "title": "Fix bug", "assignee": 1 },
+    { "id": 2, "title": "Implement feature", "assignee": 2 }
+  ]
+}
